@@ -1,0 +1,4 @@
+So basically I’m writing a text myself in order to see if the AI detection is correct or not.
+First of all, I would like to understand if my results are satisfactory or not, I don’t write a lot but it still remains a test and I would still like to understand why it can be detected as artificial intelligence.
+This text is not intended to have meaning but just to have a lot of words in order to see if the software I’m writing is correct or not.
+First of all, I don’t think I’m an AI, so we will see what the result is.
