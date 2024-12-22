@@ -166,3 +166,5 @@ ai_detection_results.json
 ai_detection_results.xlsx
 requirements.txt
 gptzero_env/
+data/
+documents/

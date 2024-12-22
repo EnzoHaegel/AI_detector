@@ -26,6 +26,7 @@ torch
 pandas
 openpyxl
 xlsxwriter
+requests
 EOT
 fi
 
