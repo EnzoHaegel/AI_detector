@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ENV_NAME="gptzero_env"
-PYTHON_VERSION="python3.9"
+PYTHON_VERSION="python3"
 REQUIREMENTS_FILE="requirements.txt"
 
 echo "==== Initializing environment for GPTZero ===="
@@ -17,7 +17,7 @@ $PYTHON_VERSION -m venv $ENV_NAME
 source "$ENV_NAME/Scripts/activate"
 
 echo "Updating pip..."
-pip install --upgrade pip
+pip3 install --upgrade pip
 
 if [ ! -f $REQUIREMENTS_FILE ]; then
     cat <<EOT > $REQUIREMENTS_FILE
@@ -31,7 +31,7 @@ EOT
 fi
 
 echo "Installing dependencies..."
-pip install -r $REQUIREMENTS_FILE
+pip3 install -r $REQUIREMENTS_FILE
 
 echo "==== Environment is ready! ===="
 echo "To activate the environment, use:"
